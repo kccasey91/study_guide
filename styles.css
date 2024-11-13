@@ -15,8 +15,10 @@ header {
     align-items: center;
 }
 
-nav {
-    
+nav {   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .notes {
@@ -28,8 +30,13 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    list-style-type: none;
 }
 
 li {
-    list-style-type: none;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
 }

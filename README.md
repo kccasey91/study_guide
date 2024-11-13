@@ -1,1 +1,2 @@
 # study_guide
+I will create a website that I can use to take notes as I study to help me remember/retain the material from the odin project. I will update the project and pimp it out as I learn more stuff.
