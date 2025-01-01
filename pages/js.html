@@ -24,7 +24,39 @@
                 alert( +apples + +oranges ); // 5</li> <br>
             <li>Template literal: `Hello, ${variable or expression}`</li> <br>
             <li>Using back ticks(template literals) is more versatile and <br>
-            readable than using quotes for strings.</li>
+            readable than using quotes for strings.</li> <br>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">Here</a> is a list of methods to use for strings.</li> <br>
+            <li>Anonymous function: doesnt have a name </li> <br>
+            <li>ReferenceError: object represents an error when a variable that doesn't exist (or hasn't yet been initialized) in the current scope is referenced.</li> <br>
+            <li>SyntaxError: object represents an error when trying to interpret syntactically invalid code. It is thrown when the JavaScript engine encounters 
+                tokens or token order that does not conform to the syntax of the language when parsing code.</li> <br>
+            <li>TypeError: object represents an error when an operation could not be performed, typically (but not exclusively) when a value is not of the expected type.</li> <br>
+            <li>Rest Parameter: syntax allows a function to accept an indefinite number of arguments as an array <br> 
+            Only one rest parameter allowed per function definition and it must be the last parameter.</li> <br>
+            <li>Convert a nodeList into an array with: Array.from() or the spread operator.</li> <br>
+            <li>Style with JS: <br>
+                // adds the indicated style rule to the element in the div variable
+                div.style.color = "blue"; <br>
+                
+                // adds several style rules
+                div.style.cssText = "color: blue; background: white;"; <br>
+                
+                // adds several style rules
+                div.setAttribute("style", "color: blue; background: white;");</li> <br>
+            <li>Access a style property: 
+                // dot notation with kebab case: doesn't work as it attempts to subtract color from div.style.background
+                // equivalent to: div.style.background - color
+                div.style.background-color; <br>
+
+                // dot notation with camelCase: works, accesses the div's background-color style
+                div.style.backgroundColor; <br>
+
+                // bracket notation with kebab-case: also works
+                div.style["background-color"]; <br>
+
+                // bracket notation with camelCase: also works
+                div.style["backgroundColor"];</li> <br>
+            <li>Method: funcions that live inside an object.</li>
         </ul>
     </div>
 </body>
